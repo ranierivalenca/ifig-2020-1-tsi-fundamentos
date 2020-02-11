@@ -1,0 +1,13 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/ranieri/.wget-hsts'. HSTS will be disabled.
+--2020-02-10 21:14:23--  https://www.publicdomainpictures.net/download-picture.php?id=150549
+Resolving www.publicdomainpictures.net (www.publicdomainpictures.net)... 104.20.44.162, 104.20.45.162, 2606:4700:10::6814:2ca2, ...
+Connecting to www.publicdomainpictures.net (www.publicdomainpictures.net)|104.20.44.162|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/jpeg]
+Saving to: ‘download-picture.php?id=150549’
+
+download-picture.php?id=150549                   [<=>                                                                                            ]       0  --.-KB/s               download-picture.php?id=150549                   [ <=>                                                                                           ] 100.12K   287KB/s               download-picture.php?id=150549                   [  <=>                                                                                          ] 263.99K   480KB/s               download-picture.php?id=150549                   [   <=>                                                                                         ] 327.10K   577KB/s    in 0.6s    
+
+2020-02-10 21:14:25 (577 KB/s) - ‘download-picture.php?id=150549’ saved [334946]
+

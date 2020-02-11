@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Fundamentos de Informática para Internet</h2>
+					<p>Ranieri Valença de Carvalho</p>
+				</section>
+				<section>
+					<h3>Quem sou eu</h3>
+					<section>
+						Formação
+					</section>
+					<section>
+						Trabalhos
+					</section>
+					<section>
+						IFPE
+					</section>
+				</section>
+				<section>
+					<h3>Conteúdos da disciplina</h3>
+					<section>
+						<p>Software e Hardware</p>
+						<p>Arquitetura de computadores</p>
+						<p>Sistemas numéricos em computadores</p>
+						<p>Sistema de arquivos</p>
+					</section>
+					<section>
+						<p><strong>HTML</strong></p>
+						<p><strong>CSS</strong></p>
+					</section>
+					<section>
+						<p>Ambientes de desenvolvimento</p>
+						<p>Dicas de codificação</p>
+						<p>Como se manter atualizado</p>
+						<p>Podcasts</p>
+						<p>Futurologia?</p>
+					</section>
+				</section>
+				<section>
+					<h3>Avaliações</h3>
+					<section>
+						Exercícios em sala
+					</section>
+					<section>
+						Avaliação
+					</section>
+					<section>
+						Seminário
+					</section>
+					<section>
+						Projeto de Lógica de Programação e/ou Redes
+					</section>
+				</section>
+				<section>
+					<h3>O que é um computador?</h3>
+					<section>
+						<p>?</p>
+					</section>
+					<section>
+						<blockquote>
+							an electronic machine that is used for storing, organizing, and finding words, numbers, and pictures, for doing calculations, and for controlling other machines
+						</blockquote>
+						<small>https://dictionary.cambridge.org/dictionary/english/computer</small>
+					</section>
+					<section>
+						<blockquote>
+							 a programmable usually electronic device that can store, retrieve, and process data
+						</blockquote>
+						<small>https://www.merriam-webster.com/dictionary/computer</small>
+					</section>
+					<section>
+						<blockquote>
+							A computer is a machine or device that performs processes, calculations and operations based on instructions provided by a software or hardware program. It is designed to execute applications and provides a variety of solutions by combining integrated hardware and software components.
+						</blockquote>
+						<small>https://www.techopedia.com/definition/4607/computer</small>
+					</section>
+					<section>
+						<blockquote>
+							Uma máquina capaz de receber uma entrada e processá-la baseada num conjunto de regras que pode ser alterado (programa), e pode gerar uma saída.
+						</blockquote>
+						<small>Ranieri Valença</small>
+					</section>
+				</section>
+				<section>
+					<h3>Exemplos de computadores</h3>
+					<section>
+						...
+					</section>
+					<section>
+						Computador de mesa (desktop)
+					</section>
+					<section>
+						Notebook
+					</section>
+					<section>
+						Smartphone
+					</section>
+					<section>
+						Sensor inteligente
+					</section>
+				</section>
+				<section>
+					<h3>Hardware, software e mais</h3>
+					<section>
+						<strong>Hardware</strong>: parte física - placas, fios, conexões
+					</section>
+					<section>
+						<strong>Software</strong>: parte lógica - código
+					</section>
+					<section>
+						<p>
+							<strong>Dispositivos de entrada</strong>
+							<ul>
+								<li class="fragment fade-in-then-semi-out">Teclado</li>
+								<li class="fragment fade-in-then-semi-out">Mouse</li>
+								<li class="fragment fade-in-then-semi-out">Tela</li>
+								<li class="fragment fade-in-then-semi-out">Microfone</li>
+								<li class="fragment fade-in-then-semi-out">Joysticks</li>
+								<li class="fragment fade-in-then-semi-out">Sensores</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<p>
+							<strong>Dispositivos de saída</strong>
+							<ul>
+								<li class="fragment fade-in-then-semi-out">Tela</li>
+								<li class="fragment fade-in-then-semi-out">Alto falante</li>
+								<li class="fragment fade-in-then-semi-out">Motores</li>
+								<li class="fragment fade-in-then-semi-out">Atuadores</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<p>
+							<strong>Dispositivos de armazenamento</strong>
+							<ul>
+								<li class="fragment fade-in-then-semi-out">HDD (<em>Hard Disk Drive</em>)</li>
+								<li class="fragment fade-in-then-semi-out">SSD (<em>Solid State Drive</em>)</li>
+								<li class="fragment fade-in-then-semi-out">Memória flash</li>
+							</ul>
+						</p>
+					</section>
+				</section>
+				<section>
+					<h3>Referências</h3>
+					<ul>
+						<li>https://pt.wikipedia.org/wiki/Computador</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			
+			Array.from(document.querySelectorAll('.slides section')).map(section => {
+				section.setAttribute('data-transition','slide') // convex
+			})
+
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
